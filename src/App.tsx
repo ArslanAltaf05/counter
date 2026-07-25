@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 
-function App(): JSX.Element {
+function App() {
   const [count, setCount] = useState<number>(0);
 
   const increment = (): void => {
@@ -21,9 +21,9 @@ function App(): JSX.Element {
       <div className="card">
         <h1>✨ Beautiful Counter</h1>
 
-        {/* <p className="subtitle">
-          Hi Lubna, Its your counter
-        </p> */}
+        <p className="subtitle">
+          Hi Lubna, A little Gift from my side
+        </p>
 
         <div className="counter">{count}</div>
 
